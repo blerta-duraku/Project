@@ -1,0 +1,173 @@
+/* ----------------------------- header style ----------------------------------*/
+header {
+  background-color: whitesmoke;
+      padding-top: 15px;
+    padding-bottom: 15px;
+}
+header .navbar-nav li a {
+  color: black;
+  margin-right: 40px;
+}
+header .navbar-nav li a:hover {
+  color: grey;
+}
+
+header .navbar-brand img {
+  width: 120px;
+}
+
+/* -------------------------------- carousel style ------------------------------------ */
+
+.carousel .carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel .btn-success{
+    border-radius: 20px;
+    padding: 8px 22px 8px 22px;
+}
+
+/* ------------------------------------- what we do style ------------------------------------------ */
+.what-we-do {
+  padding: 70px;
+  background-color: whitesmoke;
+}
+.what-we-do .tittle {
+  padding-bottom: 50px;
+}
+.what-we-do .card {
+  padding: 30px;
+}
+.what-we-do .card:hover {
+  background-color: lightgray;
+}
+.what-we-do .card img {
+  width: 44px;
+  height: 44px;
+}
+
+/* ----------------------------------- what we do second part style ------------------------------------------- */
+.new-offers {
+  background-image: url(./img/what-we-do-bg.png);
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-repeat: no-repeat;
+  color: white;
+}
+.new-offers .col-md-6 img {
+  width: 530px;
+}
+.new-offers .btn-success{
+  border-radius: 20px;
+  padding: 8px 22px 8px 22px;
+}
+.new-offers .btn-light{
+  border-radius: 20px;
+  padding: 8px 22px 8px 22px;
+  margin-right: 20px;
+}
+
+/* ---------------------------------- our portofolio style ------------------------------------------------ */
+.our-portofolio {
+  padding: 70px;
+  background-color: whitesmoke;
+}
+.our-portofolio p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.our-portofolio p a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.our-portofolio .row .col-md-3 img {
+  width: 300px;
+  height: 230px;
+}
+.our-portofolio .first-images {
+  padding-bottom: 20px;
+}
+
+/* ---------------------------------------- our blog posts style ------------------------------------ */
+.our-blog-posts {
+  background-image: url(./img/blog-bg.png);
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-repeat: no-repeat;
+}
+.our-blog-posts .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.our-blog-posts .image-one, .image-two{
+    width: 571px;
+}
+.our-blog-posts .image-one{
+    padding-bottom: 30px;
+}
+
+/* ------------------------------------- page data style ------------------------------------------ */
+.page-data {
+  padding: 70px;
+  background-color: whitesmoke;
+}
+
+.page-data .first-fact {
+  background-color: lightgray;
+  padding: 20px;
+}
+.page-data .second-fact {
+  background-color: lightgray;
+  padding: 20px;
+}
+.page-data .third-fact {
+  background-color: lightgray;
+  padding: 20px;
+}
+.page-data .fourth-fact {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+/* ------------------------ contact us style -------------------------------------- */
+.contact_us {
+  background-image: url(./img/contact-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact_us .tittle h4{
+  color: white;
+}
+.contact_us input {
+  background-color: transparent !important;
+}
+
+.contact_us textarea {
+  background-color: transparent !important;
+}
+.contact_us .btn-success{
+    border-radius: 20px;
+    padding: 8px 22px 8px 22px;
+}
+/* ------------------------------- footer style---------------------------------- */
+footer{
+  background-color: #202628;;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer .col-md-6{
+  color: white;
+}
+footer .col-md-6 a img{
+  width: 44px;
+  height: 44px;
+}
